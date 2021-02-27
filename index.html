@@ -12,63 +12,75 @@
       rel="stylesheet">
   </head>
   <body>
+
     <!--top-->
-    <header class="header">
-      <nav>
-        <a class="web" href="./index.html">Web<span class="logo">Studio</span></a>
-        <ul class="menu-nav">
-          <li class="navlink">
-            <a href="./index.html">Студия</a>
+    <header>
+      <div class="header">
+        <nav class="navigation">
+          <a class="web" href="./index.html">Web<span class="logo">Studio</span></a>
+          <ul class="menu-nav">
+            <li class="navlink current">
+              <a href="./index.html">Студия</a>
+            </li>
+            <li class="navlink">
+              <a href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="navlink">
+              <a href="#contacts">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contacts-container">
+          <li class="list-item">
+            <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li class="navlink">
-            <a href="./portfolio.html">Портфолио</a>
-          </li>
-          <li class="navlink">
-            <a href="#contacts">Контакты</a>
+          <li class="list-item">
+            <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
-      </nav>
-      <div class="contacts-header">
-        <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
       </div>
     </header>
+
       <!--main content-->
     <main>
         <!--Эффективные решения для вашего бизнеса-->
           <section class="hero">
-            <h1 class="title">
-              Эффективные решения для вашего бизнеса
-            </h1>
-            <button class="btn" type="button">Заказать услугу</button>
+            <div class="hero-container">
+              <h1 class="title">
+                Эффективные решения для вашего бизнеса
+              </h1>
+              <button class="btn" type="button">Заказать услугу</button>
+            </div>
           </section>
         <!--Особенности-->
-        <section >
+        <section>
           <ul class="features">
-            <!--Feature 1-->
-            <li class="feature">
-              <h3 class="title3">Внимание к деталям</h3>
-              <p class="feature-item">Идейные соображения, а также начало повседневной 
-              работы по формированию позиции.</p>
-            </li>
-            <!--Feature 2-->
-            <li class="feature">
-              <h3 class="title3">Пунктуальность</h3>
-              <p class="feature-item">Задача организации, в особенности же рамки 
-              и место обучения кадров влечет за собой.</p>
-            </li>
-            <!--Feature 3-->
-            <li class="feature">
-              <h3 class="title3">Планирование</h3>
-              <p class="feature-item">Равным образом консультация с широким 
-              активом в значительной степени обуславливает.</p>
-            </li>
-            <!--Feature 4-->
-            <li class="feature">
-              <h3 class="title3">Современные технологии</h3>
-              <p class="feature-item">Значимость этих проблем настолько 
-              очевидна, что реализация плановых заданий.</p>
-            </li>
+            <div class="features-container">
+              <!--Feature 1-->
+              <li class="feature">
+                <h3 class="title3">Внимание к деталям</h3>
+                <p class="feature-item">Идейные соображения, а также начало повседневной 
+                работы по формированию позиции.</p>
+              </li>
+              <!--Feature 2-->
+              <li class="feature">
+                <h3 class="title3">Пунктуальность</h3>
+                <p class="feature-item">Задача организации, в особенности же рамки 
+                и место обучения кадров влечет за собой.</p>
+              </li>
+              <!--Feature 3-->
+              <li class="feature">
+                <h3 class="title3">Планирование</h3>
+                <p class="feature-item">Равным образом консультация с широким 
+                активом в значительной степени обуславливает.</p>
+              </li>
+              <!--Feature 4-->
+              <li class="feature">
+                <h3 class="title3">Современные технологии</h3>
+                <p class="feature-item">Значимость этих проблем настолько 
+                очевидна, что реализация плановых заданий.</p>
+              </li>
+            </div>
           </ul>
         </section>
         <div class="work">
@@ -143,18 +155,32 @@
           </ul>
         </div>
         </section>
+
+        <section>
+        <!--Partners-->
+        <div class="partners">
+          <h2 class="title2">Постоянные клиенты</h2>
+            <ul class="companys">
+              <li class="company">
+                <a>
+
+                </a>
+              </li>
+            </ul>
+        </div>
+        </section>
     </main>
     <!--bottom-->
     <footer class="footer">
       <div class="contacts-footer">
-        <a class="web" href="./index.html">Web<span class="studio">Studio</span></a>
+        <a class="web" href="./index.html">Web<span class="logo footer">Studio</span></a>
         <address class="address" id="contacts">
-          г. Киев, пр-т Леси Украинки, 26 <br />
-          <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a> <br />
+          г. Киев, пр-т Леси Украинки, 26 <br/>
+          <a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a> <br/>
           <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a>
         </address>
       </div>
-    
+
       <div class="social-media-container">
         <span class="text">присоединяйтесь</span>
         <a class="social-media-item"></a>
@@ -162,7 +188,7 @@
         <a class="social-media-item"></a>
         <a class="social-media-item"></a>
       </div>
-    
+        
     </footer>
   </body>
 </html>
