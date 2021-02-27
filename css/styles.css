@@ -126,16 +126,6 @@ main {
   max-width: 1600px;
   max-height: 600px;
   padding-bottom: 200px;
-  background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-  ),
-    url(/images/hero.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  
 }
 
 .hero-container {
