@@ -573,6 +573,7 @@ footer {
 }
 
 .social-media-item {
-  display: flex;
+  display: inline-block;
   list-style: none;
+  flex-wrap: nowrap;
 }
